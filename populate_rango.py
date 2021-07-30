@@ -8,8 +8,6 @@ django.setup()
 from rango.models import Category, Page
 
 
-# For an explanation of what is going on here, please refer to the TwD book.
-
 def populate():
     python_pages = [
         {'title': 'Official Python Tutorial',
